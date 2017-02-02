@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var app = express();
 
-mongoose.connect('mongodb://' + process.env.IP + '/booksdjmot', function (err) {
+mongoose.connect('mongodb://' + process.env.MONGO_USER + ':' + process.env.MONGO_PASS + '@ds139939.mlab.com:39939/booksdjmot', function (err) {
     if (err) { console.log('mongoose connection error'); }
     else { console.log('mongoose connected'); }
 });
