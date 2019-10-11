@@ -1,4 +1,4 @@
-An app to trade books. Written by David Mason for FreeCodeCamp (https://www.freecodecamp.com/djmot).
+An app to trade books written for FreeCodeCamp.
 
 User Story: I can view all books posted by every user.
 
